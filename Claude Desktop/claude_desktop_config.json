@@ -1,0 +1,45 @@
+{
+  "mcpServers": {"airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb",
+        "--ignore-robots-txt"
+      ]
+    },
+    
+  
+
+    "mcp_weather_server": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@isdaniel/mcp_weather_server",
+        "--key",
+        "d1b05579-0fbd-458b-baed-3ba557d863df",
+        "--profile",
+        "mutual-aardwolf-8go8Up"
+      ]
+    },
+      "exa": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "exa",
+        "--key",
+        "d1b05579-0fbd-458b-baed-3ba557d863df",
+        "--profile",
+        "mutual-aardwolf-8go8Up"
+      ]
+    }
+  }
+
+  
+  
+}
