@@ -10,7 +10,7 @@ We have successfully integrated the following MCP servers:
 - 🏠 **Airbnb** — via `@openbnb/mcp-server-airbnb`
 - 🌦️ **Weather Server** — via `@isdaniel/mcp_weather_server` (Smithery)
 - 🔍 **Exa Search** — via `exa` (Smithery)
-
+## We can explore more MCPs on https://smithery.ai/
 A **testing video** is also provided that shows how the integration works step by step inside Claude Desktop.
 
 ---
@@ -19,7 +19,7 @@ A **testing video** is also provided that shows how the integration works step b
 
 To connect MCP servers, open your Claude Desktop configuration file located at:
 
-File → Settings → claude_desktop_config.json
+File → Settings →Developer →claude_desktop_config.json
 
 
 Then, add the following configuration:
